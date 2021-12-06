@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/ooxml-lib/commons-compress-1.21.jar"/>
+	<classpathentry kind="lib" path="lib/ooxml-lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/ooxml-lib/curvesapi-1.06.jar"/>
+	<classpathentry kind="lib" path="lib/ooxml-lib/slf4j-api-1.7.32.jar"/>
+	<classpathentry kind="lib" path="lib/ooxml-lib/xmlbeans-5.0.2.jar"/>
+	<classpathentry kind="lib" path="lib/lib/commons-codec-1.15.jar"/>
+	<classpathentry kind="lib" path="lib/lib/commons-collections4-4.4.jar"/>
+	<classpathentry kind="lib" path="lib/lib/commons-io-2.11.0.jar"/>
+	<classpathentry kind="lib" path="lib/lib/commons-math3-3.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/lib/log4j-api-2.14.1.jar"/>
+   	<classpathentry kind="lib" path="lib\apache-log4j-2.14.1-bin\log4j-core-2.14.1.jar"/>
+	<classpathentry kind="lib" path="lib/poi-5.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/poi-examples-5.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/poi-excelant-5.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/poi-javadoc-5.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/poi-ooxml-5.1.0.jar" sourcepath="lib/poi-javadoc-5.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/poi-ooxml-full-5.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/poi-ooxml-lite-5.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/poi-scratchpad-5.1.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
