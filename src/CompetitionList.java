@@ -81,7 +81,9 @@ public class CompetitionList {
 		}
     }
     
-    // method that reads an IndieComp from an XSSFSheet and adds it to comps
+    /**
+     * Creates an IndieComp object based on the info in the XSSFSheet s.
+     */
 	public void readIndieCompSheet(XSSFSheet s) {
 		// read the competition info from the sheet
 		String cn = s.getRow(0).getCell(1).toString();
@@ -109,11 +111,13 @@ public class CompetitionList {
 			c.addStudent(new Student(c, rank, id, name, major));
 		}
 		
-		// return the IndieComp c
+		// add the IndieComp c to the competition list
 		comps.add(c);
 	}
 	
-	// method that reads a TeamComp from an XSSFSheet and adds it to comps
+    /**
+     * Creates an TeamComp object based on the info in the XSSFSheet s.
+     */
 	public void readTeamCompSheet(XSSFSheet s) {
 		// read the competition info from the sheet
 		String cn = s.getRow(0).getCell(1).toString();
@@ -157,7 +161,7 @@ public class CompetitionList {
 			
 		}
 		
-		// return the TeamComp c
+		// add the TeamComp c to the competition list
 		comps.add(c);
 	}
 }
